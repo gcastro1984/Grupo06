@@ -1,0 +1,269 @@
+/* HORIZON DECEMBER 2022 */
+[class^=sc-page-element-outline--]{    background: black!important; }
+
+.sc-frame--2M1LL {
+    border: .5px solid #cccccc !important;
+    box-shadow: 0 0 6px rgb(52, 73, 94, .1); 
+    border-radius: 2px!important;
+}
+
+.sc-frame--2M1LL[select]{
+  border: 1px dashed #34495e !important;
+  
+}
+
+[class^=sc-page-element-outline--] [class^=spd--] {  
+    color: white!important; 
+}
+
+[class^=sc-page-element-outline--]{
+    background: #34495e!important;
+    min-width: unset!important;
+}
+[class^=sc-page-element-outline--] [class^=text--] {
+    font-size: 12px;
+    color: white!important;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+
+
+
+[class^="empty-placeholder--"],
+div.scEmptyPlaceholder,
+[hintname] + .alert.alert-danger{
+    background: #f3f3f3!important;
+    border: 1px dashed #d2d2d2;
+    text-align: center;
+    padding: 10px;
+}
+
+.alert.alert-danger.igt-horizon-edit,
+[hintname="HTML Block"] + div .alert.alert-danger{
+    background: #f7f7f7;
+    border-radius: 1px;
+    border: 1px dashed #e1e1e1;
+    font-size: 14px;
+    text-align: center;
+    color: #F44336;
+	  margin-bottom: 0px;
+}
+
+
+#bannerplaceholder [class^="empty-placeholder--"]{}
+[hintname] + .alert.alert-danger,
+[hintname="HTML Block"] + div .alert.alert-danger{
+  border: 1px dashed #F44336;
+  border-radius: 2px;
+}
+
+
+
+/* All Placeholders */
+[class^="empty-placeholder--"]:before,
+[class^="empty-placeholder--"]:after,
+div.scEmptyPlaceholder:before,
+div.scEmptyPlaceholder:after{
+  display: block;
+  width: 100%;
+  font-size: 14px;
+}
+
+[class^="empty-placeholder--"]:before,
+div.scEmptyPlaceholder:before{padding-bottom: 0;}
+
+[class^="empty-placeholder--"]:after, 
+div.scEmptyPlaceholder:after{ 
+  white-space: pre-wrap;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #34495e;
+}
+
+#bannerplaceholder > [class^="empty-placeholder--"]:before,
+#mainplaceholder [class^="empty-placeholder--"]:before,
+#relatedlinksplaceholder [class^="empty-placeholder--"]:before,
+#bannerplaceholder > [class^="empty-placeholder--"]:after,
+#mainplaceholder [class^="empty-placeholder--"]:after,
+#relatedlinksplaceholder [class^="empty-placeholder--"]:after,
+#bannerplaceholder > div.scEmptyPlaceholder:before,
+#mainplaceholder div.scEmptyPlaceholder:before,
+#relatedlinksplaceholder div.scEmptyPlaceholder:before,
+#bannerplaceholder > div.scEmptyPlaceholder:after,
+#mainplaceholder div.scEmptyPlaceholder:after,
+#relatedlinksplaceholder div.scEmptyPlaceholder:after{
+  text-align: center;
+}
+
+#bannerplaceholder > [class^="empty-placeholder--"]:before,
+#bannerplaceholder > div.scEmptyPlaceholder:before{
+  content: "BANNER PLACEHOLDER can only contain the following components:";
+}
+#bannerplaceholder > [class^="empty-placeholder--"]:after,
+#bannerplaceholder > div.scEmptyPlaceholder:after{
+  content: "Banner - Carousel \A Banner - Secondary";
+}
+
+#mainplaceholder > [class^="empty-placeholder--"]:before,
+#mainplaceholder > div.scEmptyPlaceholder:before{
+  content: "SECTION PLACEHOLDER can only contain the following components:";
+}
+#mainplaceholder > [class^="empty-placeholder--"]:after,
+#mainplaceholder > div.scEmptyPlaceholder:after{
+  content: "Section - Standard Width \A Section - Full Width";
+}
+
+#relatedlinksplaceholder > [class^="empty-placeholder--"]:before,
+#relatedlinksplaceholder > div.scEmptyPlaceholder:before{
+  content: "RELATED LINKS PLACEHOLDER can only contain the following components:";
+}
+#relatedlinksplaceholder > [class^="empty-placeholder--"]:after,
+#relatedlinksplaceholder > div.scEmptyPlaceholder:after{
+  content: "Related Links \A Related Links Pointer";
+}
+
+[hintname="Banner - Carousel"] + .carousel.igt-horizon-edit .carousel-inner [class^="empty-placeholder--"]:before,
+[hintname="Banner - Carousel"] + .carousel.igt-horizon-edit .carousel-inner div.scEmptyPlaceholder:before,
+#bannerplaceholder > div[id^="Banner"] [class^="empty-placeholder--"]:before{
+    content: "Add Banner - Carousel Slide";
+}
+
+
+/* Banner Carousel */
+.carousel.igt-horizon-edit:has(.active-edit),
+#bannerplaceholder:has(.active-edit) {
+  padding: 4px;
+  background: #e1e1e1;
+}
+
+.carousel.igt-horizon-edit .alert{
+  min-height: 75px!important;
+  display: flex;
+  align-items: center;
+  margin-bottom: 0!important;
+}
+.carousel.igt-horizon-edit>.carousel-indicators {
+  margin-bottom:  0!important;
+}
+
+#bannerplaceholder>div[id^="Banner"].active-edit:has(div[id^="Edit"]){
+  padding-bottom: 5px;
+}
+
+#bannerplaceholder>div[id^="Banner"].active-edit > .carousel{
+  padding-top: 5px;
+}
+
+#bannerplaceholder .carousel-inner .carousel-item {
+  background: #f7f7f7;
+  border-bottom:  1px solid rgba(0,0,0,.1);
+}
+
+
+[hintname^="Section -"] + div [class^="empty-placeholder--"]:before,
+[hintname^="Section -"] + div div.scEmptyPlaceholder:before{
+  content: "Add Rows & Columns"
+}
+
+[hintname^="Row -"] + div.row.igt-horizon-edit > div > div[class^="empty-placeholder--"]:before,
+[hintname^="Row -"] + div.row.igt-horizon-edit > div > div.scEmptyPlaceholder:before,
+[hintname^="Multi Col -"] + div.row.igt-horizon-edit.multirow > div > div[class^="empty-placeholder--"]:before,
+[hintname^="Multi Col -"] + div.row.igt-horizon-edit.multirow > div > div.scEmptyPlaceholder:before,
+[hintname="Div"] + div.igt-horizon-edit > div[class^="empty-placeholder--"]:before,
+[hintname="Div"] + div.igt-horizon-edit > div.scEmptyPlaceholder:before{
+  content:  "Add component/s";
+}
+
+[hintname^="Multi Col -"] + div.row.igt-horizon-edit.multirow > div[class^="empty-placeholder--"]:before,
+[hintname^="Multi Col -"] + div.row.igt-horizon-edit.multirow > div.scEmptyPlaceholder:before{
+  content:  "Add column/s for Multi Column container";
+}
+
+/* .row.active-edit, 
+.row.multirow:has(>.col.igt-horizon-edit.active-edit),*/
+.row:has([hintname="Image"] + img.active-edit){
+  padding: 10px 0;
+}
+
+/* .row.active-edit:before, 
+.row.active-edit:after, 
+.row.multirow:has(>.col.igt-horizon-edit.active-edit):before,
+.row.multirow:has(>.col.igt-horizon-edit.active-edit):after{
+  padding: 3px 0;
+  background: #ececec;
+  display: block;
+  width: 100%;
+  content: "test";
+  font-size: 12px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.row.active-edit:before,
+.row.multirow:has(>.col.igt-horizon-edit.active-edit):before{
+  border-top: 2px solid #cfcfcf;
+  margin-top: 5px;
+}
+
+.row.active-edit:after,
+.row.multirow:has(>.col.igt-horizon-edit.active-edit):after{
+  border-bottom: 2px solid #cfcfcf;
+  margin-bottom: 5px;
+} */
+
+
+
+[hintname="Video"] + div.igt-horizon-edit {
+  background: #f7f7f7;
+  padding:  5px;
+}
+
+[hintname="Spacer"] + div.igt-horizon-edit{
+  background: #f7f7f7;
+}
+
+
+
+/* .row:has(.igt-horizon-edit.active-edit) {
+  padding-top:  10px;
+  padding-bottom: 10px;
+} */
+
+.row.igt-horizon-edit.active-edit,
+.row:has(.igt-horizon-edit.active-edit) {
+  box-shadow: 0 1px 2px rgba(0,0,0,.5);
+  margin: 30px 0;
+}
+
+.row:has(.igt-horizon-edit.active-edit):before,
+.row:has(.igt-horizon-edit.active-edit):after,
+.row.igt-horizon-edit.active-edit:before,
+.row.igt-horizon-edit.active-edit:after{
+  display: block;
+  content: "test";
+  width: 100%;
+  background: #e7e7e7;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  color: #aaa;
+  padding: 5px;
+}
+
+.row:has(.igt-horizon-edit.active-edit):before,
+.row.igt-horizon-edit.active-edit:before{
+  margin: 10px;
+}
+
+.row:has(.igt-horizon-edit.active-edit):after,
+.row.igt-horizon-edit.active-edit:after{
+  margin: 10px;
+}
+
+
+div#largeDropDownButtonList {
+  height: 400px;
+  overflow-y: scroll;
+}
