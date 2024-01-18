@@ -1,0 +1,346 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&family=Poppins&display=swap');
+
+
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    background: url(../images/matt-gross-9aCkSl6YcXg-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.container-top {
+    padding: 0px;
+    margin-top: 0;
+}
+
+
+/* NavBar */
+
+.navbar-brand{
+    color: goldenrod;
+    font-size: x-large;
+    transition: all 0.5s;
+    transition-timing-function: ease-in-out;
+}
+
+.navbar-brand:hover{
+    text-shadow: goldenrod 0.25em 0.4em 0.35em;
+}
+
+.nav-link active{
+    color: white;
+    font-size: larger;
+    transition: all 0.5s;
+    transition-timing-function: ease-in-out;
+}
+
+.nav-link active:hover{
+    color: goldenrod;
+    font-size: larger;
+}
+
+.nav-link{
+    color: white;
+    font-size: larger;
+    transition: all 0.5s;
+    transition-timing-function: ease-in;
+}
+
+.nav-link:hover{
+    color: white;
+    font-weight:bolder;
+    font-size: larger;
+    text-shadow: gold 0.15em 0.2em 0.25em;
+}
+
+
+
+/* Modal */
+
+.modal-header{
+    background: url(../images/matt-gross-9aCkSl6YcXg-unsplash.jpg);
+    opacity: 0.8;
+    color: white; 	
+    font-size: xx-large;
+    font-style: italic;
+    font: weight 900px;
+}
+.modal-body{
+    background: url(../images/matt-gross-9aCkSl6YcXg-unsplash.jpg);
+    opacity: 0.8;
+    padding: 5%;
+}
+
+.form-text{
+    color: whitesmoke;
+}
+
+.form-check-label{
+    color: whitesmoke;
+    font-size: small;
+}
+
+.modal-footer   {
+    background: url(../images/matt-gross-9aCkSl6YcXg-unsplash.jpg);
+    opacity: 0.8;
+    padding: 5%;
+}
+
+.form-left {
+    text-align: center;
+    color: rgb(19, 19, 19);
+    margin-top: 5%;
+}
+
+.form-left img{
+    margin-top: 5%;
+    margin-bottom: 0%;
+    width: 100%;
+    ~webkit-animation: mover 3s infinite alternate;
+    animation: mover 3s infinite alternate-reverse;
+}
+
+@-webkit-keyframes mover{
+    0% {transform: translateX(-50px);}
+    25% {transform: translatey(40px);}
+    50% {transform: translateX(50px);}
+    75% {transform: translatey(-40px);}
+    100% {transform: translateX(-50px);}
+    
+}
+@keyframes mover {
+    0% {transform: translateX(-50px);}
+    25% {transform: translatey(40px);}
+    50% {transform: translateX(50px);}
+    75% {transform: translatey(-40px);}
+    100% {transform: translateX(-50px);}
+    
+}
+
+.form-left h1{
+    color: goldenrod;
+    font-weight: bolder;
+    margin-top: 10%;
+    margin-left: -15%;
+    padding: 10%;
+}
+
+
+.input-group-text{
+    background-image: url(../images/matt-gross-9aCkSl6YcXg-unsplash.jpg);
+}
+
+.form-control-md input{
+    border: solid 2px goldenrod;
+    border-radius: 8px;
+}
+
+.form-control-md span{
+    color: white;
+    border-radius: 8px;
+    border: solid 2px goldenrod;
+}
+
+.form-control{
+    color: white;
+    border-radius: 8px;
+    border: solid 2px goldenrod;
+}
+
+
+
+/* SERVICES */
+
+.container-services {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.services-info {
+    display: flex;
+    align-items: center;
+}
+
+.services-info img{
+    width: 60px;
+    margin-right: 20px;
+    border-radius: 5%;
+}
+
+.container-services h3 {
+    color: white;
+}
+
+.container-services p {
+    color: white;
+}
+
+/* NUMBERS */
+.container-numbers {
+    background-image: url(../images/golden_sparkles_confetti_all_over.png);
+    transition: all 0.5s; 
+}
+
+.container-numbers:hover {
+    background-image: url(../images/matt-gross-9aCkSl6YcXg-unsplash.jpg);
+    p {
+        color: goldenrod;
+    }   
+}
+
+
+.display-2{
+    color: white;
+    font-weight: bolder;
+}
+.container-numbers p{
+    color: black;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+
+
+
+/* Floors */
+.floors{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.floors h4{
+    margin-top: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+.floors h1{
+    margin-top: 20px;
+    font-weight: bolder;
+    color: goldenrod;
+}
+
+.floors p{
+    margin-top: 20px;
+    color: white;
+}
+
+.card-floor {
+    padding: 30px;
+    text-align: center;
+}
+
+.card-floor h4{
+    margin-top: 20px;
+    font-weight: bolder;
+    color: goldenrod;
+}
+
+.card-floor p{
+    margin-top: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+.container-floors img{
+    border-radius: 5px;
+    transition: all 0.5s;
+    animation: ease-in-out;
+}
+
+.container-floors img:hover{
+    border-radius: 20px;
+    color: #111;  
+    background: gold;  
+    box-shadow: 0 10px 50px gold; 
+}
+
+
+/* footer */
+footer {
+    margin: 0;
+    background: url(../images/golden_sparkles_confetti_all_over.png);
+    opacity: 0.6;
+}
+
+.footer-link{
+    color: black;
+    font-weight: bolder;
+    margin-top: 10%;
+    transition: all 0.5s; 
+}
+
+.footer-link:hover {
+    color: goldenrod;
+    text-shadow: white 0.1em 0.1em 0.2em;
+    text-shadow:
+}
+
+.tables-link{
+    color: rgb(71, 70, 70);
+    font-weight: bold;
+    margin-top: 10%;
+}
+
+.tables-link:hover{
+    background: -webkit-linear-gradient(yellow, goldenrod, black );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.cards-link{
+    color: rgb(71, 70, 70);
+    font-weight: bold;
+    margin-top: 10%;
+}
+
+.cards-link:hover{
+    background: -webkit-linear-gradient(yellow, goldenrod, black );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.slots-link{
+    color: rgb(71, 70, 70);
+    font-weight: bold;
+    margin-top: 10%;
+}
+
+.slots-link:hover{
+    background: -webkit-linear-gradient(yellow, goldenrod, black );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.adress p1{
+    color: rgb(71, 70, 70);
+    font-weight: bold;
+    margin-top: 10%;
+}
+
+.adress p2{
+    color: rgb(71, 70, 70);
+    font-weight: bold;
+    margin-top: 10%;
+}
+
+.media-links{
+    display: flex;
+    margin-top: 10px;
+    margin-left: -40px;
+    column-gap: 3px;
+}
+
+.media-icon{
+    width: 30px;
+    height: auto;
+    border-radius: 50%;
+    opacity: 1;
+}
+
+.media-icon:hover{ /* definir opacidade para todos os icons on hover */
+    opacity: 0.5;
+}
+

@@ -1,0 +1,44 @@
+.carousel-item img {
+    border-radius: 5px;
+
+}
+
+/* para ter mesma height entre cartão e slider
+abaixo do container-top todos os seus filhos devem ter height 100%
+se todos os elementos vão ter a mesma height, não faz sentido ter o align-itens-center na row, logo acima do container top
+
+
+/* código a aplicar às imagens do slide para ocupat toda a altura do container pai */
+.carousel-inner img{
+    width: 400px;
+    object-fit: cover;
+    height: 100%;
+}
+
+/* devemos alterar de display flex para display column a partir de determinada dimensão do ecra através de um media query */
+@media only screen and (max-width: 999px) {
+    .row {
+        flex-direction: column;
+    }
+  }
+
+.card-header {
+    transition: all 0.5s;
+    transition-timing-function: ease-in;
+}
+
+.card-header:hover{
+    background: url(../images/matt-gross-9aCkSl6YcXg-unsplash.jpg);
+    color: goldenrod;
+}
+
+.card-body {
+    transition: all 1s;
+    transition-timing-function: ease-in;
+}
+
+.card-body:hover{
+    background: url(../images/matt-gross-9aCkSl6YcXg-unsplash.jpg);
+    color: goldenrod;
+}
+
