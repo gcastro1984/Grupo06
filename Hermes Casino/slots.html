@@ -9,7 +9,20 @@
     <link rel="stylesheet" href="./styles/slots_style.css">
 
 </head>
-  <body>
+
+<body>
+
+  <audio id ="roletaSound" src= "./sounds/RouletteWheelSpinn_PE147501.mp3"></audio>
+  <audio id ="pokerSound" src= "./sounds/allinpushchips-96121.mp3"></audio>
+  <audio id ="bacaratSound" src= "./sounds/riffle-card-shuffle-104313.mp3"></audio>
+  <audio id ="crapsSound" src= "./sounds/dice-on-a-wooden-floor-87441.mp3"></audio>
+  <audio id ="SlotsSound1" src= "./sounds/playful-casino-slot-machine-jackpot-2-183923.mp3"></audio>
+  <audio id ="SlotsSound2" src= "./sounds/playful-casino-slot-machine-bonus-1-183918.mp3"></audio>
+  <audio id ="SlotsSound3" src= "./sounds/playful-casino-slot-machine-bonus-3-183920.mp3"></audio>
+  <audio id ="SlotsSound4" src= "./sounds/playful-casino-slot-machine-jackpot-3-183921.mp3"></audio>
+  <audio id ="SlotsPageSound" src= "./sounds/012972_casinopalmdesertcawav-58133.mp3"></audio>
+
+
     <!--NAVBAR-->
     <nav class="navbar navbar-expand-lg bg-dark border-bottom border-body" data-bs-theme="dark">
         <div class="container-fluid">
@@ -101,21 +114,21 @@
           
                         <div class="col-6 adress">
                           <div class="form-control-md">
-                            <input type="text" class="form-field" id="adress" placeholder="Your Adress" value="" aria-describedby="adress">
+                            <input type="text" class="form-field" id="Your_adress" placeholder="Your Adress" value="" aria-describedby="adress">
                             <div id="adress" class="form-text">Your adress will never be shared!</div>
                           </div>
                         </div>
 
                         <div class="col-6 city">
                           <div class="form-control-md">
-                            <input type="text" class="form-field" id="city" placeholder="City - Zip Code" value="" aria-describedby="city">
+                            <input type="text" class="form-field" id="your_city" placeholder="City - Zip Code" value="" aria-describedby="city">
                             <div id="city" class="form-text"></div>
                           </div>
                         </div>
 
                         <div class="col-6 country">
                           <div class="form-control-md">
-                            <input type="text" class="form-field" id="country" placeholder="Country" value="" aria-describedby="country">
+                            <input type="text" class="form-field" id="your_country" placeholder="Country" value="" aria-describedby="country">
                             <div id="country" class="form-text"></div>
                           </div>
                         </div>
@@ -145,7 +158,7 @@
     <!--Top image -->
     <div class="container-fluid mb-5">
       <div class="row align-content-center">
-        <img class="container-image" src="./images/slots/slot-top-image.jpg" alt="slots">
+        <img id="slotsTopImage" class="container-image" src="./images/slots/slot-top-image.jpg" alt="slots">
       </div>
     </div>
 
@@ -167,54 +180,54 @@
       <div class="container-poker mt-5 text-center">
           <div class="container">
             <div class="slot-header text-lg-start mt-3">
-              <h1>Poker</h4>
+              <h1>Poker</h1>
             </div>
 
             <div class="row poker-slot mt-2">
               <div class="col">
-                <img src="./images/slots/5card_poker.jpg" alt="5card_poker">
+                <img id="5card_poker" src="./images/slots/5card_poker.jpg" alt="5card_poker">
                 <div class="poker-title">
                   <h4>5 Card Poker</h4>
                 </div>  
               </div>
 
               <div class="col">
-                <img src="./images/slots/double_joker_poker.jpg" alt="double_joker_poker">
+                <img id="double_joker_poker" src="./images/slots/double_joker_poker.jpg" alt="double_joker_poker">
                 <div class="poker-title">
                   <h4>Double Joker</h4>
                 </div>  
               </div>
 
               <div class="col">
-                <img src="./images/slots/pixel_poker.jpg" alt="pixel_poker">
+                <img id="pixel_poker" src="./images/slots/pixel_poker.jpg" alt="pixel_poker">
                 <div class="poker-title">
                   <h4>Pixel Poker</h4>
                 </div>  
               </div>
 
               <div class="col">
-                <img src="./images/slots/poker_high_card_flush.jpg" alt="poker_high_card_flush">
+                <img id="poker_high_card_flush" src="./images/slots/poker_high_card_flush.jpg" alt="poker_high_card_flush">
                 <div class="poker-title">
                   <h4>High Flush</h4>
                 </div>  
               </div>
 
               <div class="col">
-                <img src="./images/slots/poker_king.jpg" alt="poker_king">
+                <img id="poker_king" src="./images/slots/poker_king.jpg" alt="poker_king">
                 <div class="poker-title">
                   <h4>Poker King</h4>
                 </div>  
               </div>
 
               <div class="col">
-                <img src="./images/slots/teen_patti_AK47.jpg" alt="teen_patti_AK47">
+                <img id="teen_patti_AK47" src="./images/slots/teen_patti_AK47.jpg" alt="teen_patti_AK47">
                 <div class="poker-title">
                   <h4>Teen Patti</h4>
                 </div>  
               </div>
 
               <div class="col">
-                <img src="./images/slots/three_card_poker.jpg" alt="3_card_poker">
+                <img id="3_card_poker" src="./images/slots/three_card_poker.jpg" alt="3_card_poker">
                 <div class="poker-title">
                   <h4>3 Card Poker</h4>
                 </div>  
@@ -226,54 +239,54 @@
       <div class="container-roulette mt-5 text-center">
       <div class="container">
         <div class="slot-header text-lg-start mt-3">
-          <h1>Roulette</h4>
+          <h1>Roulette</h1>
         </div>
 
         <div class="row roulette-slot mt-2">
           <div class="col">
-            <img src="./images/slots/multifire_roullette.jpg" alt="multifire_roullette">
+            <img  id="multifire_roullette" src="./images/slots/multifire_roullette.jpg" alt="multifire_roullette">
             <div class="roulette-title">
               <h4>MultiFire</h4>
             </div>  
           </div>
 
           <div class="col">
-            <img src="./images/slots/european_roullette.jpg" alt="european_roullette">
+            <img id="european_roullette" src="./images/slots/european_roullette.jpg" alt="european_roullette">
             <div class="roulette-title">
               <h4>European</h4>
             </div>  
           </div>
 
           <div class="col">
-            <img src="./images/slots/dealer's_club_roullette.jpg" alt="dealers_roullette">
+            <img id="dealers_roullette" src="./images/slots/dealer's_club_roullette.jpg" alt="dealers_roullette">
             <div class="roulette-title">
               <h4>Dealers Club</h4>
             </div>  
           </div>
 
           <div class="col">
-            <img src="./images/slots/dragon_roullette.jpg" alt="dragon_roullette">
+            <img id="dragon_roullette" src="./images/slots/dragon_roullette.jpg" alt="dragon_roullette">
             <div class="roulette-title">
               <h4>Dragon</h4>
             </div>  
           </div>
 
           <div class="col">
-            <img src="./images/slots/hochey_fever_roullette.jpg" alt="hockey_roullette">
+            <img id="hockey_roullette" src="./images/slots/hochey_fever_roullette.jpg" alt="hockey_roullette">
             <div class="roulette-title">
               <h4>Hockey Fever</h4>
             </div>  
           </div>
 
           <div class="col">
-            <img src="./images/slots/maxi_roullette.jpg" alt="maxi_roullette">
+            <img id="maxi_roullette" src="./images/slots/maxi_roullette.jpg" alt="maxi_roullette">
             <div class="roulette-title">
               <h4>Maxi</h4>
             </div>  
           </div>
 
           <div class="col">
-            <img src="./images/slots/vip_roullette.jpg" alt="vip_roullette">
+            <img id="vip_roullette" src="./images/slots/vip_roullette.jpg" alt="vip_roullette">
             <div class="roulette-title">
               <h4>VIP</h4>
             </div>  
@@ -285,40 +298,40 @@
       <div class="container-bacarat mt-5 text-center">
       <div class="container">
         <div class="slot-header text-lg-start mt-3">
-          <h1>Bacarat</h4>
+          <h1>Bacarat</h1>
         </div>
 
         <div class="row bacarat-slot mt-2">
           <div class="col">
-            <img src="./images/slots/bacarat.jpg" alt="bacarat">
+            <img id="bacarat" src="./images/slots/bacarat.jpg" alt="bacarat">
             <div class="bacarat-title">
               <h4>Bacarat</h4>
             </div>  
           </div>
 
           <div class="col">
-            <img src="./images/slots/bacarat_magic.jpg" alt="bacarat_magic">
+            <img id="bacarat_magic" src="./images/slots/bacarat_magic.jpg" alt="bacarat_magic">
             <div class="bacarat-title">
               <h4>Magic Bacarat</h4>
             </div>  
           </div>
 
           <div class="col">
-            <img src="./images/slots/bacarat babes.jpg" alt="bacarat_babes">
+            <img id="bacarat_babes" src="./images/slots/bacarat_babes.jpg" alt="bacarat_babes">
             <div class="bacarat-title">
               <h4>Babes Bacarat</h4>
             </div>  
           </div>
 
           <div class="col">
-            <img src="./images/slots/bacarat_private.jpg" alt="bacarat_private">
+            <img id="bacarat_private" src="./images/slots/bacarat_private.jpg" alt="bacarat_private">
             <div class="bacarat-title">
               <h4>Private Bacarat</h4>
             </div>  
           </div>
 
           <div class="col">
-            <img src="./images/slots/bacarat_royal.jpg" alt="bacarat_royal">
+            <img id="bacarat_royal" src="./images/slots/bacarat_royal.jpg" alt="bacarat_royal">
             <div class="bacarat-title">
               <h4>Royal Bacarat</h4>
             </div>  
@@ -330,47 +343,47 @@
       <div class="container-dice mt-5 text-center">
       <div class="container">
         <div class="slot-header text-lg-start mt-3">
-          <h1>Dices and Craps</h4>
+          <h1>Dices and Craps</h1>
         </div>
 
         <div class="row dice-slot mt-2">
           <div class="col">
-            <img src="./images/slots/craps.jpg" alt="craps">
+            <img id="craps" src="./images/slots/craps.jpg" alt="craps">
             <div class="dice-title">
               <h4>Craps</h4>
             </div>  
           </div>
 
           <div class="col">
-            <img src="./images/slots/titan_dice.jpg" alt="titan_dice">
+            <img id="titan_dice" src="./images/slots/titan_dice.jpg" alt="titan_dice">
             <div class="dice-title">
               <h4>Titan</h4>
             </div>  
           </div>
 
           <div class="col">
-            <img src="./images/slots/sicbo.jpg" alt="sicbo">
+            <img id="sicbo" src="./images/slots/sicbo.jpg" alt="sicbo">
             <div class="dice-title">
               <h4>SicBo</h4>
             </div>  
           </div>
 
           <div class="col">
-            <img src="./images/slots/craps_golden.jpg" alt="craps_golden">
+            <img id="craps_golden" src="./images/slots/craps_golden.jpg" alt="craps_golden">
             <div class="dice-title">
               <h4>Golden Craps</h4>
             </div>  
           </div>
 
           <div class="col">
-            <img src="./images/slots/sicbo_dragons.jpg" alt="sicbo_dragons">
+            <img id="sicbo_dragons" src="./images/slots/sicbo_dragons.jpg" alt="sicbo_dragons">
             <div class="dice-title">
               <h4>Dragons</h4>
             </div>  
           </div>
 
           <div class="col">
-            <img src="./images/slots/fortune_dice.jpg" alt="fortune_dice">
+            <img id="fortune_dice" src="./images/slots/fortune_dice.jpg" alt="fortune_dice">
             <div class="dice-title">
               <h4>Fortune</h4>
             </div>  
@@ -387,56 +400,56 @@
 
         <div class="row 21-slot mt-2">
           <div class="col">
-            <img src="./images/slots/Caribean_blackjack.jpg" alt="Caribean_blackjack">
+            <img id="Caribean_blackjack" src="./images/slots/Caribean_blackjack.jpg" alt="Caribean_blackjack">
             <div class="21-title">
               <h4>Caribbean</h4>
             </div>  
           </div>
 
           <div class="col">
-            <img src="./images/slots/diamond_blackjack.jpg" alt="diamond_blackjack">
+            <img id="diamond_blackjack" src="./images/slots/diamond_blackjack.jpg" alt="diamond_blackjack">
             <div class="21-title">
               <h4>Diamond</h4>
             </div>  
           </div>
 
           <div class="col">
-            <img src="./images/slots/poker&pairs_blackjack.jpg" alt="poker_pairs_blackjack">
+            <img id="poker_pairs_blackjack" src="./images/slots/poker&pairs_blackjack.jpg" alt="poker_pairs_blackjack">
             <div class="21-title">
               <h4>Poker Pairs</h4>
             </div>  
           </div>
 
           <div class="col">
-            <img src="./images/slots/eight_deck_blacjack.jpg" alt="eight_deck_blacjack">
+            <img id="eight_deck_blacjack" src="./images/slots/eight_deck_blacjack.jpg" alt="eight_deck_blacjack">
             <div class="21-title">
               <h4>Eight Deck</h4>
             </div>  
           </div>
 
           <div class="col">
-            <img src="./images/slots/hi_lo_blackjack.jpg" alt="hi_lo_blackjack">
+            <img id="hi_lo_blackjack" src="./images/slots/hi_lo_blackjack.jpg" alt="hi_lo_blackjack">
             <div class="21-title">
               <h4>Hi-Lo</h4>
             </div>  
           </div>
 
           <div class="col">
-            <img src="./images/slots/Multi_hand_blackjack.jpg" alt="Multi_hand_blackjack">
+            <img id="Multi_hand_blackjack" src="./images/slots/Multi_hand_blackjack.jpg" alt="Multi_hand_blackjack">
             <div class="21-title">
               <h4>Multi Hand</h4>
             </div>  
           </div>
 
           <div class="col">
-            <img src="./images/slots/ultimate_blackjack.jpg" alt="ultimate_blackjack">
+            <img id="ultimate_blackjack" src="./images/slots/ultimate_blackjack.jpg" alt="ultimate_blackjack">
             <div class="21-title">
               <h4>Ultimate</h4>
             </div>  
           </div>
 
           <div class="col">
-            <img src="./images/slots/vegas_blackjack.jpg" alt="vegas_blackjack">
+            <img id="vegas_blackjack" src="./images/slots/vegas_blackjack.jpg" alt="vegas_blackjack">
             <div class="21-title">
               <h4>Vegas</h4>
             </div>  
@@ -455,21 +468,37 @@
 
         <div class="row slot mt-2">
           <div class="col">
-            <img src="./images/slots/88fortunes.jpg" alt="88fortunes">
+            <div class="hover-content" id="hoverContent">
+            <img id="88fortunes" src="./images/slots/88fortunes.jpg" alt="88fortunes">
+            <video id="videoHover" loop muted loop muted preload="auto" width="350" height="263">
+              <source src="./images/Pala Casino_ 88 Fortunes Slot Machine.mp4" type="video/mp4">
+          </video>
+        </div> 
             <div class="slot-title">
               <h4>88 Fortunes</h4>
             </div>  
           </div>
 
           <div class="col">
-            <img src="./images/slots/buffalo.jpg" alt="buffalo">
+
+            <div class="hover-content1" id="hoverContent1">
+            <img id="buffalo"  src="./images/slots/buffalo.jpg" alt="buffalo">
+            <video id="videoHover1" loop muted loop muted preload="auto" width="350" height="263">
+              <source src="./images/Buffalo1.mp4" type="video/mp4">
+            </video>
+          </div>
             <div class="slot-title">
               <h4>Buffalo</h4>
             </div>  
           </div>
 
           <div class="col">
-            <img src="./images/slots/cleopatra.jpg" alt="cleopatra">
+            <div class="hover-content2" id="hoverContent2">
+            <img id="cleopatra"  src="./images/slots/cleopatra.jpg" alt="cleopatra">
+            <video id="videoHover2" loop muted loop muted preload="auto" width="350" height="263">
+              <source src="./images/Buffalo1.mp4" type="video/mp4">
+            </video>
+          </div>
             <div class="slot-title">
               <h4>Cleopatra</h4>
             </div>  
@@ -478,42 +507,42 @@
 
         <div class="row slot mt-5">
           <div class="col">
-            <img src="./images/slots/amun_ra.jpg" alt="amun_ra">
+            <img id="amun_ra" src="./images/slots/amun_ra.jpg" alt="amun_ra">
             <div class="slot-title">
               <h4>Amun-Ra</h4>
             </div>  
           </div>
 
           <div class="col">
-            <img src="./images/slots/blazzing_7.jpg" alt="blazzing_7">
+            <img id="blazzing_7" src="./images/slots/blazzing_7.jpg" alt="blazzing_7">
             <div class="slot-title">
               <h4>Blazzing 7's</h4>
             </div>  
           </div>
 
           <div class="col">
-            <img src="./images/slots/book_of_ra.jpg" alt="book_of_ra">
+            <img id="book_of_ra" src="./images/slots/book_of_ra.jpg" alt="book_of_ra">
             <div class="slot-title">
               <h4>Book-of-Ra</h4>
             </div>  
           </div>
 
           <div class="col">
-            <img src="./images/slots/dancing_drums.jpg" alt="dancing_drums">
+            <img id="dancing_drums" src="./images/slots/dancing_drums.jpg" alt="dancing_drums">
             <div class="slot-title">
               <h4>Dancing Drums</h4>
             </div>  
           </div>
 
           <div class="col">
-            <img src="./images/slots/golden_godess.jpg" alt="golden_godess">
+            <img id="golden_godess" src="./images/slots/golden_godess.jpg" alt="golden_godess">
             <div class="slot-title">
               <h4>Golden Godess</h4>
             </div>  
           </div>
 
           <div class="col">
-            <img src="./images/slots/lucky_ladys_charm.jpg" alt="lucky_ladys_charm">
+            <img id="lucky_ladys_charm" src="./images/slots/lucky_ladys_charm.jpg" alt="lucky_ladys_charm">
             <div class="slot-title">
               <h4>Ladys Charm</h4>
             </div>  
@@ -522,42 +551,42 @@
 
         <div class="row slot mt-5">
         <div class="col">
-          <img src="./images/slots/cats.jpg" alt="cats">
+          <img id="cats" src="./images/slots/cats.jpg" alt="cats">
           <div class="slot-title">
             <h4>Cat's</h4>
           </div>  
         </div>
 
         <div class="col">
-          <img src="./images/slots/dragon_rising.jpg" alt="dragon_rising">
+          <img id="dragon_rising" src="./images/slots/dragon_rising.jpg" alt="dragon_rising">
           <div class="slot-title">
             <h4>Dragon Rising</h4>
           </div>  
         </div>
 
         <div class="col">
-          <img src="./images/slots/kong.jpg" alt="kong">
+          <img id="kong" src="./images/slots/kong.jpg" alt="kong">
           <div class="slot-title">
             <h4>Kong</h4>
           </div>  
         </div>
 
         <div class="col">
-          <img src="./images/slots/leprechauns.jpg" alt="leprechauns">
+          <img id="leprechauns" src="./images/slots/leprechauns.jpg" alt="leprechauns">
           <div class="slot-title">
             <h4>Leprechauns</h4>
           </div>  
         </div>
 
         <div class="col">
-          <img src="./images/slots/palyboy.jpg" alt="palyboy">
+          <img id="palyboy" src="./images/slots/palyboy.jpg" alt="palyboy">
           <div class="slot-title">
             <h4>Playboy</h4>
           </div>  
         </div>
 
         <div class="col">
-          <img src="./images/slots/pharaos fortune.jpg" alt="pharaos_fortune">
+          <img id="pharaos_fortune" src="./images/slots/pharaos_fortune.jpg" alt="pharaos_fortune">
           <div class="slot-title">
             <h4>Pharaohs Fortune</h4>
           </div>  
@@ -566,28 +595,28 @@
 
         <div class="row slot mt-5">
         <div class="col">
-          <img src="./images/slots/medusa.jpg" alt="medusa">
+          <img id="medusa" src="./images/slots/medusa.jpg" alt="medusa">
           <div class="slot-title">
             <h4>Medusa</h4>
           </div>  
         </div>
 
         <div class="col">
-          <img src="./images/slots/miss_kitty.jpg" alt="miss_kitty">
+          <img id="miss_kitty" src="./images/slots/miss_kitty.jpg" alt="miss_kitty">
           <div class="slot-title">
             <h4>Miss Kitty</h4>
           </div>  
         </div>
 
         <div class="col">
-          <img src="./images/slots/triple_red_hot.jpg" alt="triple_red_hot">
+          <img id="triple_red_hot" src="./images/slots/triple_red_hot.jpg" alt="triple_red_hot">
           <div class="slot-title">
             <h4>Tripple Red Hot</h4>
           </div>  
         </div>
 
         <div class="col">
-          <img src="./images/slots/raging_rhino.jpg" alt="raging_rhino">
+          <img id="raging_rhino" src="./images/slots/raging_rhino.jpg" alt="raging_rhino">
           <div class="slot-title">
             <h4>Raging Rhino</h4>
           </div>  
@@ -605,61 +634,74 @@
             <h4><a class="footer-link" href="./index.html" style="text-decoration: none">Hermes</a></h4>
             <a class="footer-brand" href="./index.html"><img src="./images/casino_logo-removebg-preview.png" alt="Logo" width="100" height="100" class="d-inline-block align-text-top"></a>  
             <div class="media-links">
-              <ul>
-                <a href="https://www.instagram.com/" class="media-link">
-                  <img class="media-icon" src="./icons/instagram.jpg" alt="instagram"></a>
-                <a href="https://twitter.com/tweeter" class="media-link">
-                  <img class="media-icon" src="./icons/tweeter.png" alt="tweeter"></a>
-                <a href="https://web.whatsapp.com/" class="media-link">
-                  <img class="media-icon" src="./icons/whattsapp.png" alt="whattsapp"></a>
-                <a href="https://www.facebook.com/" class="media-link">
-                  <img class="media-icon" src="./icons/facebook.jpg" alt="facebook"></a>
+              <ul class="footer-list">
+                <li><a href="https://www.instagram.com/" class="media-link">
+                  <img class="media-icon" src="./icons/instagram.jpg" alt="instagram"></a></li>
+                <li><a href="https://twitter.com/tweeter" class="media-link">
+                  <img class="media-icon" src="./icons/tweeter.png" alt="tweeter"></a></li>
+                <li><a href="https://web.whatsapp.com/" class="media-link">
+                  <img class="media-icon" src="./icons/whattsapp.png" alt="whattsapp"></a></li>
+                <li><a href="https://www.facebook.com/" class="media-link">
+                  <img class="media-icon" src="./icons/facebook.jpg" alt="facebook"></a></li>
               </ul>
             </div>
           </div>
 
           <div class="col-lg-2 col-md-2 align-top tables">
             <h4><a class="footer-link" href="./tables.html" style="text-decoration: none">Tables</a></h4>
-            <p2><a href="./tables.html" class="tables-link" style="text-decoration: none">Roullete</a></p2><br>
-            <p2><a href="./tables.html" class="tables-link" style="text-decoration: none">Craps</a></p2><br>
-            <p2><a href="./tables.html" class="tables-link" style="text-decoration: none">Dice</a></p2><br>
+            <ul class="tables-list">
+              <li><a href="./tables.html" class="tables-link" style="text-decoration: none">Roullete</a></li>
+              <li><a href="./tables.html" class="tables-link" style="text-decoration: none">Craps</a></li>
+              <li><a href="./tables.html" class="tables-link" style="text-decoration: none">Dice</a></li>
+            </ul>
           </div>
 
           <div class="col-lg-2 col-md-2 cards">
             <h4><a class="footer-link" href="./cards.html" style="text-decoration: none">Cards</a></h4>
-            <p2><a href="./cards.html" class="cards-link" style="text-decoration: none">Spanish 21</a></p2><br> 
-            <p2><a href="./cards.html" class="cards-link" style="text-decoration: none">Poker</a></p2><br> 
-            <p2><a href="./cards.html" class="cards-link" style="text-decoration: none">Texas Hold'Em</a></p2><br> 
-            <p2><a href="./cards.html" class="cards-link" style="text-decoration: none">Baccarat</a></p2><br> 
-            <p2><a href="./cards.html" class="cards-link" style="text-decoration: none">Pai Go</a></p2><br> 
-            <p2><a href="./cards.html" class="cards-link" style="text-decoration: none">Blackjack</a></p2><br> 
+            <ul class="cards-list"> 
+              <li><a href="./cards.html" class="cards-link" style="text-decoration: none">Spanish 21</a></li>
+              <li><a href="./cards.html" class="cards-link" style="text-decoration: none">Poker</a></li>
+              <li><a href="./cards.html" class="cards-link" style="text-decoration: none">Texas Hold'Em</a></li> 
+              <li><a href="./cards.html" class="cards-link" style="text-decoration: none">Baccarat</a></li>
+              <li><a href="./cards.html" class="cards-link" style="text-decoration: none">Pai Go</a></li>
+              <li><a href="./cards.html" class="cards-link" style="text-decoration: none">Blackjack</a></li>
+           </ul> 
           </div>
 
           <div class="col-lg-2 col-md-2 slots">
             <h4><a class="footer-link" href="./slots.html" style="text-decoration: none">Slots</a></h4>
-            <p2><a href="./slots.html" class="slots-link" style="text-decoration: none">Poker</a></p2><br>  
-            <p2><a href="./slots.html" class="slots-link" style="text-decoration: none">Roullete</a></p2><br>  
-            <p2><a href="./slots.html" class="slots-link" style="text-decoration: none">Baccarat</a></p2><br>  
-            <p2><a href="./slots.html" class="slots-link" style="text-decoration: none">Dice's and Crap's</a></p2><br>  
-            <p2><a href="./slots.html" class="slots-link" style="text-decoration: none">21's Blackjack</a></p2><br>  
-            <p2><a href="./slots.html" class="slots-link" style="text-decoration: none">Slots</a></p2><br>  
+            <ul class="slots-list">
+              <li><a href="./slots.html" class="slots-link" style="text-decoration: none">Poker</a></li> 
+              <li><a href="./slots.html" class="slots-link" style="text-decoration: none">Roullete</a></li> 
+              <li><a href="./slots.html" class="slots-link" style="text-decoration: none">Baccarat</a></li> 
+              <li><a href="./slots.html" class="slots-link" style="text-decoration: none">Dice's and Crap's</a></li> 
+              <li><a href="./slots.html" class="slots-link" style="text-decoration: none">21's Blackjack</a></li> 
+              <li><a href="./slots.html" class="slots-link" style="text-decoration: none">Slots</a></li>
+            </ul> 
           </div>
 
           <div class="col-lg-3 col-md-3 col-sm-2">
             <h4><a class="footer-link" href="#" style="text-decoration: none">Contacts</a></h4>
             <div class="adress">
-              <p1>Hermes Casino</p1><br>
-              <p2><img src="./icons/icons8-house-64.png" alt="contact-image" width="16" height="auto"> Rua D.Sancho I, nº 981</p2><br>
-              <p2>4480-876 Vila do Conde</p2><br>
-              <p2>Portugal</p2><br>
-              <p2><img src="./icons/icons8-phone-64.png" alt="contact-image" width="16" height="auto"> +351 252 291 700</p2><br>
-              <p2><img src="./icons/icons8-envelope-64.png" alt="contact-image" width="16" height="auto"> hermes@casino.pt</p2><br>
-          </div>
+              
+              <ul class="adress-list">
+                <li>Hermes Casino</li>
+                <li><img src="./icons/icons8-house-64.png" alt="contact-image" width="16" height="16"> Rua D.Sancho I, nº 981</li>
+                <li>4480-876 Vila do Conde</li>
+                <li>Portugal</li>
+                <li><img src="./icons/icons8-phone-64.png" alt="contact-image" width="16" height="16"> +351 252 291 700</li>
+                <li><img src="./icons/icons8-envelope-64.png" alt="contact-image" width="16" height="16"> hermes@casino.pt</li>
+              </ul>
+            </div>
+        </div>
         </div>
       </div>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
-  </body>
+    <script src="./js_files/slots.js"></script>
+    <script src="script.js"></script>
+    
+</body>
 </html>
