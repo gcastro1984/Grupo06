@@ -276,7 +276,6 @@ footer {
 .footer-link:hover {
     color: goldenrod;
     text-shadow: white 0.1em 0.1em 0.2em;
-    text-shadow:
 }
 
 .tables-link{
@@ -331,6 +330,31 @@ footer {
     margin-top: 10px;
     margin-left: -40px;
     column-gap: 3px;
+}
+
+.footer-list{
+    display: flex;
+    list-style-type: none;
+}
+
+.tables-list{
+    margin-left: -30px;
+    list-style-type: none;
+}
+
+.cards-list{
+    margin-left: -30px;
+    list-style-type: none;
+}
+
+.slots-list{
+    margin-left: -30px;
+    list-style-type: none;
+}
+
+.adress-list{
+    margin-left: -30px;
+    list-style-type: none;
 }
 
 .media-icon{
